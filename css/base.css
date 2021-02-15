@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfixed::after,
+.clearfixed::before{
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.f_left{
+    float: left;
+}
+
+.f_rigth{
+    float: right;
+}
+
+.dis_blk{
+    display: block;
+}
+
+.dis_non{
+    display: none;
+}
